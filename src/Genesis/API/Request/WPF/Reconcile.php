@@ -27,6 +27,9 @@ namespace Genesis\API\Request\WPF;
  *
  * @package    Genesis
  * @subpackage Request
+ *
+ * @method $this setUniqueId($value) Set a unique id as returned by the create request
+ * @method string getUniqueId()
  */
 class Reconcile extends \Genesis\API\Request
 {
